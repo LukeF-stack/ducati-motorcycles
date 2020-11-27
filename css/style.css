@@ -1,806 +1,820 @@
-*{
-    margin: 0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-html, body {
-    height: fit-content;
-    width: 100vw;
-    display: block;
-    background-color: #0A0A0A;
-    max-width: 100%;
+html,
+body {
+  height: fit-content;
+  width: 100vw;
+  display: block;
+  background-color: #0a0a0a;
+  max-width: 100%;
 }
 section {
-    margin: 0;
+  margin: 0;
 }
 .hero {
-    height: 100vh;
-    width: 100%;
-    min-height: 50vw;
-    max-height: 65vw;
-    opacity: 0;
+  height: 100vh;
+  width: 100%;
+  min-height: 50vw;
+  max-height: 65vw;
+  opacity: 0;
 }
 #about {
-    height: 170vh;
-    width: 100%;
-    min-height: 80vw;
-    max-height: 100vw;
-    opacity: 1;
-    background-image: url(../images/about-background.png); /*Ducati. 2019. Ducati Hypermotard Close Up 2. Image. https://www.ducati.com/au/en/bikes/hypermotard/hypermotard-950.*/
-    background-size: cover;
+  height: 170vh;
+  width: 100%;
+  min-height: 80vw;
+  max-height: 100vw;
+  opacity: 1;
+  background-image: url(../images/about-background.png); /*Ducati. 2019. Ducati Hypermotard Close Up 2. Image. https://www.ducati.com/au/en/bikes/hypermotard/hypermotard-950.*/
+  background-size: cover;
 }
 .engine-section {
-    height: 100vh;
-    width: 100%;
-    min-height: 50vw;
-    max-height: 65vw;
-    background-image: url(../images/section2-background.png);
-    background-size: cover;
+  height: 100vh;
+  width: 100%;
+  min-height: 50vw;
+  max-height: 65vw;
+  background-image: url(../images/section2-background.png);
+  background-size: cover;
 }
 .ergonomics-section {
-    height: 100vh;
-    width: 100%;
-    min-height: 50vw;
-    max-height: 65vw;
-    background-image: url(../images/monster_ergonomics-background.png); /* Ducati. 2019. Ducati Monster Riding In City. Image. https://gaadiwaadi.com/ducati-multistrada-950-ducati-monster-797-india-launch-price-899481/.*/
-    background-size: cover;
+  height: 100vh;
+  width: 100%;
+  min-height: 50vw;
+  max-height: 65vw;
+  background-image: url(../images/monster_ergonomics-background.png); /* Ducati. 2019. Ducati Monster Riding In City. Image. https://gaadiwaadi.com/ducati-multistrada-950-ducati-monster-797-india-launch-price-899481/.*/
+  background-size: cover;
 }
 .rpm-section {
-    height: 100vh;
-    width: 100%;
-    min-height: 50vw;
-    max-height: 65vw;
-    background-image: url(../images/xdiavel_rpm-background.png); /*Ducati. 2019. Ducati XDiavel Riding Away From Camera. Image. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.*/
-    background-size: cover;
+  height: 100vh;
+  width: 100%;
+  min-height: 50vw;
+  max-height: 65vw;
+  background-image: url(../images/xdiavel_rpm-background.png); /*Ducati. 2019. Ducati XDiavel Riding Away From Camera. Image. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.*/
+  background-size: cover;
 }
 .hypermotard_ergonomics-section {
-    height: 100vh;
-    width: 100%;
-    min-height: 50vw;
-    max-height: 65vw;
-    background-image: url(../images/hypermotard_ergonomics-background.png); /*Ducati. 2019. Ducati Hypermotard Racing On Track. Image. https://www.ducati.com/au/en/bikes/hypermotard/hypermotard-950.*/
-    background-size: cover;
+  height: 100vh;
+  width: 100%;
+  min-height: 50vw;
+  max-height: 65vw;
+  background-image: url(../images/hypermotard_ergonomics-background.png); /*Ducati. 2019. Ducati Hypermotard Racing On Track. Image. https://www.ducati.com/au/en/bikes/hypermotard/hypermotard-950.*/
+  background-size: cover;
 }
 .specs-section {
-    height: 100vh;
-    width: 100%;
-    min-height: 50vw;
-    max-height: 65vw;
-    background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  min-height: 50vw;
+  max-height: 65vw;
+  background-color: #000000;
 }
 .gallery-section {
-    height: 100vh;
-    width: 100%;
-    min-height: 50vw;
-    max-height: 65vw;
-    background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  min-height: 50vw;
+  max-height: 65vw;
+  background-color: #000000;
 }
 #centre-gallery {
-    position: relative;
-    background-image: url(../images/panigale_gallery-1.png); /* Ducati. 2019. Ducati Panigale V4 Racing Past Camera. Image. https://www.ducati.com/au/en/bikes/panigale/panigale-v4.*/
-    background-size: cover;
-    background-position: center;
-    width: 60vw;
-    height: 32vw;
-    margin: auto;
-    top: 8vw;
-    transition: background ease 0.3s;
+  position: relative;
+  background-image: url(../images/panigale_gallery-1.png); /* Ducati. 2019. Ducati Panigale V4 Racing Past Camera. Image. https://www.ducati.com/au/en/bikes/panigale/panigale-v4.*/
+  background-size: cover;
+  background-position: center;
+  width: 60vw;
+  height: 32vw;
+  margin: auto;
+  top: 8vw;
+  transition: background ease 0.3s;
 }
 #monster_centre-gallery {
-    position: relative;
-    background-image: url(../images/monster_gallery-1.png); /* Maxabout Images. 2019. Ducati Monster 797 Riding On Road. Image. https://images.maxabout.com/bikes/ducati/monster-795/image-1960582.*/
-    background-size: cover;
-    background-position: center;
-    width: 60vw;
-    height: 32vw;
-    margin: auto;
-    top: 8vw;
-    transition: background ease 0.3s;
+  position: relative;
+  background-image: url(../images/monster_gallery-1.png); /* Maxabout Images. 2019. Ducati Monster 797 Riding On Road. Image. https://images.maxabout.com/bikes/ducati/monster-795/image-1960582.*/
+  background-size: cover;
+  background-position: center;
+  width: 60vw;
+  height: 32vw;
+  margin: auto;
+  top: 8vw;
+  transition: background ease 0.3s;
 }
 #xdiavel_centre-gallery {
-    position: relative;
-    background-image: url(../images/xdiavel_gallery-1.png); /*Road Rider Magazine. 2019. XDiavel Riding On Road. Image. https://www.shannons.com.au/club/bike-news/ducati-xdiavel-s-the-gentleman-outlaw/.*/
-    background-size: cover;
-    background-position: center;
-    width: 60vw;
-    height: 32vw;
-    margin: auto;
-    top: 8vw;
-    transition: background ease 0.3s;
+  position: relative;
+  background-image: url(../images/xdiavel_gallery-1.png); /*Road Rider Magazine. 2019. XDiavel Riding On Road. Image. https://www.shannons.com.au/club/bike-news/ducati-xdiavel-s-the-gentleman-outlaw/.*/
+  background-size: cover;
+  background-position: center;
+  width: 60vw;
+  height: 32vw;
+  margin: auto;
+  top: 8vw;
+  transition: background ease 0.3s;
 }
 #hypermotard_centre-gallery {
-    position: relative;
-    background-image: url(../images/hypermotard_gallery-1.png); /*Ducati. 2019. Ducati Hypermotard Burnout. Image. https://www.ducati.com/au/en/bikes/hypermotard/hypermotard-950.*/
-    background-size: cover;
-    background-position: center;
-    width: 60vw;
-    height: 32vw;
-    margin: auto;
-    top: 8vw;
-    transition: background ease 0.3s;
+  position: relative;
+  background-image: url(../images/hypermotard_gallery-1.png); /*Ducati. 2019. Ducati Hypermotard Burnout. Image. https://www.ducati.com/au/en/bikes/hypermotard/hypermotard-950.*/
+  background-size: cover;
+  background-position: center;
+  width: 60vw;
+  height: 32vw;
+  margin: auto;
+  top: 8vw;
+  transition: background ease 0.3s;
 }
 #specs-text {
-    width: 30vw;
-    margin-top: 2em;
+  width: 30vw;
+  margin-top: 2em;
 }
 #monster_specs-text {
-    width: 30vw;
-    margin-top: 4em;
+  width: 30vw;
+  margin-top: 4em;
 }
 #xdiavel_specs-text {
-    width: 30vw;
-    margin-top: 2em;
+  width: 30vw;
+  margin-top: 2em;
 }
 #monster_specs-title {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 #specs_panigale {
-    width: 60vw;
-    opacity: 0;
-    position: absolute;
+  width: 60vw;
+  opacity: 0;
+  position: absolute;
 }
 #specs_monster {
-    width: 60vw;
-    opacity: 0;
-    position: absolute;
+  width: 60vw;
+  opacity: 0;
+  position: absolute;
 }
 #specs_xdiavel {
-    width: 50vw;
-    opacity: 0;
-    position: absolute;
+  width: 50vw;
+  opacity: 0;
+  position: absolute;
 }
 #specs_hypermotard {
-    width: 60vw;
-    opacity: 0;
-    position: absolute;
+  width: 60vw;
+  opacity: 0;
+  position: absolute;
 }
 #engine {
-    width: 35vw;
-    position: relative;
-    /*padding: 14vh 0;
+  width: 35vw;
+  position: relative;
+  /*padding: 14vh 0;
     left: 12vw;*/
 }
 #engine img {
-    width: 100%;
+  width: 100%;
 }
 .find-dealer {
-    position: relative;
-    background-image: url(../images/home-footer_background.png);
-    height: 70vh;
-    width: 100%;
-    background-size: cover;
-    min-height: 33vw;
-    max-height: 45vh;
-    line-height: 1em;
+  position: relative;
+  background-image: url(../images/home-footer_background.png);
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  min-height: 33vw;
+  max-height: 45vh;
+  line-height: 1em;
 }
 #footer-container {
-    margin: 0;
-    position: relative;
+  margin: 0;
+  position: relative;
 }
 .about_find-dealer {
-    position: relative;
-    background-color: #000000;;
-    height: 30vh;
-    width: 100%;
-    min-height: 12vw;
-    max-height: 45vh;
+  position: relative;
+  background-color: #000000;
+  height: 30vh;
+  width: 100%;
+  min-height: 12vw;
+  max-height: 45vh;
 }
 .find-dealer2 {
-    position: relative;
-    background-color: #000000;;
-    height: 70vh;
-    width: 100%;
-    min-height: 33vw;
-    max-height: 45vh;
+  position: relative;
+  background-color: #000000;
+  height: 70vh;
+  width: 100%;
+  min-height: 33vw;
+  max-height: 45vh;
 }
-.find-dealer h1, .find-dealer2 h1 {
-    text-align: center;
-    padding-top: 1.2em;
+.find-dealer h1,
+.find-dealer2 h1 {
+  text-align: center;
+  padding-top: 1.2em;
 }
 body {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 0.96vw;
-    line-height: 208%;
-    letter-spacing: 0.02em;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.96vw;
+  line-height: 208%;
+  letter-spacing: 0.02em;
 
-    color: #D1D1D1;
+  color: #d1d1d1;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 header {
-    height: 70px;
-    width: 100%;
-    background: #0A0A0A;
-    opacity: 0.9;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-    z-index: 10;
-    position: fixed;
-    top: 0;
+  height: 70px;
+  width: 100%;
+  background: #0a0a0a;
+  opacity: 0.9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  position: fixed;
+  top: 0;
 }
 nav {
-    display: flex;
-    margin-right: 5vw;
-    float: right;
-    padding: 24px 0;
+  display: flex;
+  margin-right: 5vw;
+  float: right;
+  padding: 24px 0;
 }
 nav a {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1em;
-    color: #CCA33B;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: relative;
-    margin: 0 2vw;
-    transition: all ease 0.2s;
-    vertical-align: middle;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1em;
+  color: #cca33b;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  margin: 0 2vw;
+  transition: all ease 0.2s;
+  vertical-align: middle;
 }
 #models-button {
-    vertical-align: top;
-    padding: 0 10px;
-    text-align: center;
+  vertical-align: top;
+  padding: 0 10px;
+  text-align: center;
 }
 #models-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .dropdown {
-    background-color: #0A0A0A;;
-    height: 160px;
-    padding-top: 1em;
-    transition: all ease 0.3s;
+  background-color: #0a0a0a;
+  height: fit-content;
+  padding-top: 1em;
+  transition: all ease 0.3s;
+  padding-bottom: 1em;
 }
 .dropdown-text {
-    display: list-item;
-    list-style: none;
-    font-size: 12px;
-    padding: 10px 0;
-    text-align: center;
-    display: none;
+  display: list-item;
+  list-style: none;
+  font-size: 12px;
+  padding: 10px 0;
+  text-align: center;
+  display: none;
 }
 nav a:hover {
-    filter: brightness(1.3);
-    transform: scale(1.1);
+  filter: brightness(1.3);
+  transform: scale(1.1);
 }
 
 .hero-img {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    z-index: 0;
-    transition: background linear 0.5s;
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: 0;
+  transition: background linear 0.5s;
+  background-position: center;
 }
 #home_hero-img {
-    background-image: url(../images/hero-1.png); /* Ducati. 2019. Ducati Panigale V4 Racing Towards Camera. Image. https://www.ducati.com/au/en/bikes/panigale/panigale-v4.*/
-    position: fixed;
+  background-image: url(../images/hero-1.png); /* Ducati. 2019. Ducati Panigale V4 Racing Towards Camera. Image. https://www.ducati.com/au/en/bikes/panigale/panigale-v4.*/
+  position: fixed;
 }
 #panigale_hero-img {
-    background-image: url(../images/panigale_hero-1.png); /* Ducati. 2019. Ducati Panigale V4 Close Up. Image. https://www.ducati.com/au/en/bikes/panigale/panigale-v4.*/
+  background-image: url(../images/panigale_hero-1.png); /* Ducati. 2019. Ducati Panigale V4 Close Up. Image. https://www.ducati.com/au/en/bikes/panigale/panigale-v4.*/
 }
 #monster_hero-img {
-    background-image: url(../images/monster_hero-1.png); /* Ducati. 2019. Ducati Monster 797 Close Up. Image. https://www.ducati.com/au/en/bikes/monster/monster-797. */
+  background-image: url(../images/monster_hero-1.png); /* Ducati. 2019. Ducati Monster 797 Close Up. Image. https://www.ducati.com/au/en/bikes/monster/monster-797. */
 }
 #xdiavel_hero-img {
-    background-image: url(../images/xdiavel_hero-1.png); /*Ducati. 2019. Ducati XDiavel Close Up. Image. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.*/
+  background-image: url(../images/xdiavel_hero-1.png); /*Ducati. 2019. Ducati XDiavel Close Up. Image. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.*/
 }
 #hypermotard_hero-img {
-    background-image: url(../images/hypermotard_hero-1.png); /*Ducati. 2019. Ducati Hypermotard Close Up. Image. https://www.ducati.com/au/en/bikes/hypermotard/hypermotard-950.*/
+  background-image: url(../images/hypermotard_hero-1.png); /*Ducati. 2019. Ducati Hypermotard Close Up. Image. https://www.ducati.com/au/en/bikes/hypermotard/hypermotard-950.*/
 }
 
 .logo {
-    position: relative;
-    padding: 18px 0;
-    width: 180px;
-    transition: all ease 0.2s;
-    margin-left: 25px;
+  position: relative;
+  padding: 18px 0;
+  width: 180px;
+  transition: all ease 0.2s;
+  margin-left: 25px;
 }
 .logo:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.hero-title, .about-title {
-    z-index: 5;
-    position: relative;
-    display: inline-block;
-    grid-column: 1;
+.hero-title,
+.about-title {
+  z-index: 5;
+  position: relative;
+  display: inline-block;
+  grid-column: 1;
 }
 
 .hero-subtitle {
-    z-index: 5;
-    position: relative;
-    display: block;
-    font-weight: 500;
-    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.247);
-    width: fit-content;
-    z-index: 5;
-    color: #CCA33B;
-    margin-top: 1.5em;
-    grid-column: 1;
+  z-index: 5;
+  position: relative;
+  display: block;
+  font-weight: 500;
+  text-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.247);
+  width: fit-content;
+  z-index: 5;
+  color: #cca33b;
+  margin-top: 1.5em;
+  grid-column: 1;
 }
 .about-subtitle {
-    z-index: 5;
-    position: relative;
-    display: block;
-    font-weight: 500;
-    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.247);
-    z-index: 5;
-    color: #D1D1D1;
-    margin-top: 2em;
-    grid-column: 1;
+  z-index: 5;
+  position: relative;
+  display: block;
+  font-weight: 500;
+  text-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.247);
+  z-index: 5;
+  color: #d1d1d1;
+  margin-top: 2em;
+  grid-column: 1;
 }
 .description {
-    z-index: 5;
-    position: relative;
-    display: block;
-    width: 29vw;
-    margin-top: 2em;
-    grid-column: 1;
+  z-index: 5;
+  position: relative;
+  display: block;
+  width: 29vw;
+  margin-top: 2em;
+  grid-column: 1;
 }
-#about-body2, #about-body3, #about-body4 {
-    text-align: justify;
-    z-index: 5;
-    position: relative;
-    display: block;
-    margin-top: 2em;
-    grid-column: 1;
-    opacity: 0;
+#about-body2,
+#about-body3,
+#about-body4 {
+  text-align: justify;
+  z-index: 5;
+  position: relative;
+  display: block;
+  margin-top: 2em;
+  grid-column: 1;
+  opacity: 0;
 }
 #about-body1 {
-    text-align: justify;
-    z-index: 5;
-    position: relative;
-    display: block;
-    margin-top: 4em;
-    grid-column: 1;
+  text-align: justify;
+  z-index: 5;
+  position: relative;
+  display: block;
+  margin-top: 4em;
+  grid-column: 1;
 }
 
 .overlay-button {
-    width: fit-content;
-    height: fit-content;
-    min-height: 10px;
-    z-index: 5;
-    box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.148);
-    position: relative;
-    text-align: center;
-    transition: all ease 0.3s;
+  width: fit-content;
+  height: fit-content;
+  min-height: 10px;
+  z-index: 5;
+  box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.148);
+  position: relative;
+  text-align: center;
+  transition: all ease 0.3s;
 }
 #discover-more {
-    margin-top: 1em;
-    grid-column: 1;
+  margin-top: 1em;
+  grid-column: 1;
 }
 #find-a-dealer_button {
-    position: relative;
-    margin: 45% 0 0 15vw;
-    grid-column: 2;
-    grid-row: 3;
-    width: 16vw;
-    height: 4vw;
+  position: relative;
+  margin: 45% 0 0 15vw;
+  grid-column: 2;
+  grid-row: 3;
+  width: 16vw;
+  height: 4vw;
 }
 #panigale {
-    width: 38vw;
-    margin: 1% 3vw 0;
-    grid-column: 2;
-    grid-row: 1;
-    transition: all ease 0.2s;
+  width: 38vw;
+  margin: 1% 3vw 0;
+  grid-column: 2;
+  grid-row: 1;
+  transition: all ease 0.2s;
 }
 #monster {
-    width: 38vw;
-    margin: 1% 3vw 0;
-    grid-column: 2;
-    grid-row: 1;
-    transition: all ease 0.2s;
+  width: 38vw;
+  margin: 1% 3vw 0;
+  grid-column: 2;
+  grid-row: 1;
+  transition: all ease 0.2s;
 }
 #xdiavel {
-    width: 40vw;
-    margin: 1% 3vw 0;
-    grid-column: 2;
-    grid-row: 1;
-    transition: all ease 0.2s;
+  width: 40vw;
+  margin: 1% 3vw 0;
+  grid-column: 2;
+  grid-row: 1;
+  transition: all ease 0.2s;
 }
 #hypermotard {
-    width: 36vw;
-    margin: 0 3vw 0;
-    grid-column: 2;
-    grid-row: 1;
-    transition: all ease 0.2s;
+  width: 36vw;
+  margin: 0 3vw 0;
+  grid-column: 2;
+  grid-row: 1;
+  transition: all ease 0.2s;
 }
 #calltoaction img {
-    position: relative;
-    width: 0.5em;
-    margin: auto;
-    padding: 0.9em 0;
-    padding-left: 1em;
-    top: 1em;
+  position: relative;
+  width: 0.5em;
+  margin: auto;
+  padding: 0.9em 0;
+  padding-left: 1em;
+  top: 1em;
 }
 
 #contact-dealer {
-    margin: 3em auto;
-    opacity: 0;
+  margin: 3em auto;
+  opacity: 0;
 }
 #contact-dealer_main {
-    margin: 3em auto;
-    opacity: 0;
+  margin: 3em auto;
+  opacity: 0;
 }
-#contact-dealer img, #contact-dealer_main img {
-    position: relative;
-    width: 0.5em;
-    margin: auto;
-    padding: 0.9em 0;
-    padding-left: 1.5em;
-    top: 1em;
+#contact-dealer img,
+#contact-dealer_main img {
+  position: relative;
+  width: 0.5em;
+  margin: auto;
+  padding: 0.9em 0;
+  padding-left: 1.5em;
+  top: 1em;
 }
-#calltoaction, #calltoaction2 {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5vw;
-    min-height: 2em;
-    line-height: 2.6em;
-    color: #CCA33B;
-    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+#calltoaction,
+#calltoaction2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  min-height: 2em;
+  line-height: 2.6em;
+  color: #cca33b;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 button {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5vw;
-    color: #CCA33B;
-    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    background: none;
-    height: 4vw;
-    width: 16vw;
-    border: none;
-    outline: 0.1em solid#CCA33B;
-    transition: all ease 0.3s;
-    box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.148);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5vw;
+  color: #cca33b;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  background: none;
+  height: 4vw;
+  width: 16vw;
+  border: none;
+  outline: 0.1em solid#CCA33B;
+  transition: all ease 0.3s;
+  box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.148);
 }
 button:hover {
-    transform: translateX(4vw);
-    cursor: pointer;
-    filter: brightness(1.2);
+  transform: translateX(4vw);
+  cursor: pointer;
+  filter: brightness(1.2);
 }
 button img {
-    position: relative;
-    width: 0.5em;
-    margin: auto;
-    padding-left: 0.8em;
-    padding-top: 0.em;
-    top: 0.1em;
+  position: relative;
+  width: 0.5em;
+  margin: auto;
+  padding-left: 0.8em;
+  padding-top: 0em;
+  top: 0.1em;
 }
 #discover-button {
-    margin-top: 2em;
-    grid-column: 1;
-    width: 17vw;
+  margin-top: 2em;
+  grid-column: 1;
+  width: fit-content;
 }
-#contact-button, #contact-button_main {
-    margin: 3em auto;
-    opacity: 0;
-    width: 16vw;
+#contact-button,
+#contact-button_main {
+  margin: 3em auto;
+  opacity: 0;
+  width: 16vw;
 }
-#contact-button a, #contact-button_main a {
-    width: 16vw;
-    height: 4vw;
+#contact-button a,
+#contact-button_main a {
+  width: 16vw;
+  height: 4vw;
 }
 #calltoaction {
-    padding: 0.67em 1.5em;
-    outline: 0.1em solid#CCA33B;
-    transition: all ease 0.3s;
+  padding: 0.67em 1.5em;
+  outline: 0.1em solid#CCA33B;
+  transition: all ease 0.3s;
 }
 #calltoaction2 {
-    padding: 0.67em 2em;
-    outline: 0.1em solid#CCA33B;
-    transition: all ease 0.3s;
+  padding: 0.67em 2em;
+  outline: 0.1em solid#CCA33B;
+  transition: all ease 0.3s;
 }
-#calltoaction:hover, #calltoaction2:hover, .overlay-button:hover {
-    filter: brightness(1.2);
+#calltoaction:hover,
+#calltoaction2:hover,
+.overlay-button:hover {
+  filter: brightness(1.2);
 }
 .overlay-button:hover {
-    transform: translateX(4vw);
+  transform: translateX(4vw);
 }
 .dot-carousel {
-    margin: 0 auto;
-    z-index: 5;
-    position: relative;
-    width: 9vw;
-    text-align: center;
+  margin: 0 auto;
+  z-index: 5;
+  position: relative;
+  width: 9vw;
+  text-align: center;
 }
 #carousel-1 {
-    top: 44em;
+  top: 44em;
 }
 #carousel-2 {
-    grid-column: 2;
-    grid-row: 3;
-    margin-top: 35%;
-    height: fit-content;
+  grid-column: 2;
+  grid-row: 3;
+  margin-top: 35%;
+  height: fit-content;
 }
 #carousel-3 {
-    margin-top: 11vw;
+  margin-top: 11vw;
 }
 .audio {
-    grid-column: 2;
-    grid-row: 3;
-    margin: 35% 0 0 60%;
-    width: 2em;
-    height: fit-content;
-    transition: 0.3s;
+  grid-column: 2;
+  grid-row: 3;
+  margin: 35% 0 0 60%;
+  width: 2em;
+  height: fit-content;
+  transition: 0.3s;
 }
 .audio:hover {
-    filter: brightness(1.3);
-    cursor: pointer;
+  filter: brightness(1.3);
+  cursor: pointer;
 }
 .audio img {
-    width: 100%;
+  width: 100%;
 }
 .ellipse {
-    padding: 0 0.5em;
-    width: 1em;
-    height: 1em;
-    transition: all ease 0.1s;
+  padding: 0 0.5em;
+  width: 1em;
+  height: 1em;
+  transition: all ease 0.1s;
 }
 .ellipse:hover {
-    cursor: pointer;
-    transform: scale(1.6);
+  cursor: pointer;
+  transform: scale(1.6);
 }
 
 h1 {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 3.5vw;
-    line-height: 1em;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.5vw;
+  line-height: 1em;
 
-    color: #E5E5E5;
+  color: #e5e5e5;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 h3 {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2vw;
-    line-height: 100%;
-    letter-spacing: -0.02em;  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 100%;
+  letter-spacing: -0.02em;
 }
 
 .wrapper {
-    text-align: left;
-    position: absolute;
-    margin: 0 auto;
-    display: grid;
-    margin-top: 2%;
-    left: 15vw;
-    top: 7vw;
-    grid-template-columns: auto auto;
-    grid-template-rows: 3em min-content;
+  text-align: left;
+  position: absolute;
+  margin: 0 auto;
+  display: grid;
+  margin-top: 2%;
+  left: 15vw;
+  top: 7vw;
+  grid-template-columns: auto auto;
+  grid-template-rows: 3em min-content;
 }
 .about_wrapper {
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
-    display: grid;
-    width: 55%;
-    top: 11vw;
-    grid-template-columns: auto;
-    grid-template-rows: 3em min-content;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  display: grid;
+  width: 55%;
+  top: 11vw;
+  grid-template-columns: auto;
+  grid-template-rows: 3em min-content;
 }
 .wrapper-2 {
-    text-align: left;
-    position: relative;
-    margin: 0 auto;
-    display: grid;
-    margin-left: 10vw;
-    top: 6vw;
-    grid-template-columns: 42vw min-content;
-    grid-template-rows: min-content;
-    width: fit-content;
-    opacity: 0;
+  text-align: left;
+  position: relative;
+  margin: 0 auto;
+  display: grid;
+  margin-left: 10vw;
+  top: 6vw;
+  grid-template-columns: 42vw min-content;
+  grid-template-rows: min-content;
+  width: fit-content;
+  opacity: 0;
 }
 .wrapper-3 {
-    text-align: left;
-    position: relative;
-    margin-left: 60vw;
-    top: 4vw;
-    width: 30vw;
-    margin-right: 10vw;
-    float: right;
-    opacity: 0;
+  text-align: left;
+  position: relative;
+  margin-left: 60vw;
+  top: 4vw;
+  width: 30vw;
+  margin-right: 10vw;
+  float: right;
+  opacity: 0;
 }
 .wrapper-4 {
-    text-align: left;
-    position: relative;
-    margin-left: 60vw;
-    top: 7vw;
-    width: 30vw;
-    margin-right: 10vw;
-    float: right;
-    opacity: 0;
+  text-align: left;
+  position: relative;
+  margin-left: 60vw;
+  top: 7vw;
+  width: 30vw;
+  margin-right: 10vw;
+  float: right;
+  opacity: 0;
 }
-#engine-title, #ergonomics-title {
-    z-index: 5;
-    position: relative;
-    display: inline-block;
-    grid-column: 2;
-    width: 30vw;
-    grid-row: 1;
-
+#engine-title,
+#ergonomics-title {
+  z-index: 5;
+  position: relative;
+  display: inline-block;
+  grid-column: 2;
+  width: 30vw;
+  grid-row: 1;
 }
-#engine-subtitle, #ergonomics-subtitle {
-    z-index: 5;
-    position: relative;
-    display: block;
-    font-weight: 500;
-    text-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.247);
-    width: 35vw;
-    height: fit-content;
-    z-index: 5;
-    color: #D1D1D1;
-    margin-top: 3ch;
-    grid-column: 2;
-    grid-row: 1;
+#engine-subtitle,
+#ergonomics-subtitle {
+  z-index: 5;
+  position: relative;
+  display: block;
+  font-weight: 500;
+  text-shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.247);
+  width: 35vw;
+  height: fit-content;
+  z-index: 5;
+  color: #d1d1d1;
+  margin-top: 3ch;
+  grid-column: 2;
+  grid-row: 1;
 }
 #engine-description {
-    grid-column: 2;
-    grid-row: 1;
-    margin-top: 5ch;
-    width: 30vw;
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 5ch;
+  width: 30vw;
 }
 #ergonomics-description {
-    margin-top: 5ch;
-    width: 25vw;
+  margin-top: 5ch;
+  width: 25vw;
 }
 #engine-container {
-    margin-top: 8ch;
-    height: fit-content;
+  margin-top: 8ch;
+  height: fit-content;
 }
 .line {
-    position: relative;
-    height: 0.2vh;
-    width: 0;
-  
-    margin-bottom: 0;
+  position: relative;
+  height: 0.2vh;
+  width: 0;
+
+  margin-bottom: 0;
 }
-#line1, #line-bottom {
-    background-color: #333333;
-    margin: 4em auto;
+#line1,
+#line-bottom {
+  background-color: #333333;
+  margin: 4em auto;
 }
 #about_line {
-    background-color: #333333;
-    margin: 0 auto 4em;
+  background-color: #333333;
+  margin: 0 auto 4em;
 }
 #line2 {
-    background-color: #660800;
-    float: right;
+  background-color: #660800;
+  float: right;
 }
 #line3 {
-    background-color: #660800;
+  background-color: #660800;
 }
 #line4 {
-    background-color: #660800;
+  background-color: #660800;
 }
 .container {
-    width: 40vw;
-    margin: 3em auto 0 auto;
-    text-align: center;
+  width: 40vw;
+  margin: 3em auto 0 auto;
+  text-align: center;
 }
 #container-home {
-    opacity: 0;
+  opacity: 0;
 }
 #container-about {
-    opacity: 0;
+  opacity: 0;
 }
 #container-main {
-    opacity: 0;
+  opacity: 0;
 }
 .container p {
-    font-size: 0.6em;
-    line-height: 2em;
-    text-align: center;
-    padding: 2.2em 0;
-    color: #333333;
+  font-size: 0.6em;
+  line-height: 2em;
+  text-align: center;
+  padding: 2.2em 0;
+  color: #333333;
 }
 .container h3 {
-    display: inline;
-    padding: 0 1em;
-    color: #333333;
+  display: inline;
+  padding: 0 1em;
+  color: #333333;
 }
 #footer-heading {
-    opacity: 0;
+  opacity: 0;
 }
 #footer-heading2 {
-    opacity: 0;
+  opacity: 0;
 }
 
 @media only screen and (max-width: 1200px) {
-    .wrapper {
-        top: 10vw;
-    }
+  .wrapper {
+    top: 10vw;
+  }
 }
 @media only screen and (max-width: 905px) {
-    .find-dealer {
-        position: absolute;
-        bottom: 0;
-    }
+  .find-dealer {
+    position: absolute;
+    bottom: 0;
+  }
 }
 @media only screen and (max-width: 800px) {
-    .wrapper {
-        top: 14vw;
-    }
-    .about_wrapper {
-        top: 18vw;
-    }
+  .wrapper {
+    top: 14vw;
+  }
+  .about_wrapper {
+    top: 18vw;
+  }
 }
 @media only screen and (max-width: 700px) {
-    .about_find-dealer {
-        position: absolute;
-        bottom: 0;
-    }
+  .about_find-dealer {
+    position: absolute;
+    bottom: 0;
+  }
 }
 @media only screen and (max-width: 600px) {
-    nav a {
-        font-size: 12px;
-    }
-    .logo {
-        position: relative;
-        padding: 18px 0;
-        width: 120px;
-        transition: all ease 0.2s;
-        margin-left: 20px;
-    }
+  nav a {
+    font-size: 12px;
+  }
+  .logo {
+    position: relative;
+    padding: 18px 0;
+    width: 120px;
+    transition: all ease 0.2s;
+    margin-left: 20px;
+  }
 }
 @media only screen and (max-width: 550px) {
-    #footer-container {
-        margin-top: 10%;
-    }    
-    .wrapper {
-        top: 16vw;
-    }
-    .about_wrapper {
-        top: 24vw;
-    }
+  #footer-container {
+    margin-top: 10%;
+  }
+  .wrapper {
+    top: 16vw;
+  }
+  .about_wrapper {
+    top: 24vw;
+  }
 }
 @media only screen and (max-width: 450px) {
-    .wrapper {
-        top: 20vw;
-    }
+  .wrapper {
+    top: 20vw;
+  }
 }
 @media only screen and (max-width: 400px) {
-    nav a {
-        font-size: 10px;
-    }
-    .logo {
-        position: relative;
-        padding: 18px 0;
-        width: 100px;
-        transition: all ease 0.2s;
-        margin-left: 15px;
-    }
-    .wrapper {
-        top: 24vw;
-    }
+  nav a {
+    font-size: 10px;
+  }
+  .logo {
+    position: relative;
+    padding: 18px 0;
+    width: 100px;
+    transition: all ease 0.2s;
+    margin-left: 15px;
+  }
+  .wrapper {
+    top: 24vw;
+  }
 }
 @media only screen and (max-width: 380px) {
-    #footer-container {
-        margin-top: 20%;
-    }
-    .about_wrapper {
-        top: 30vw;
-    }
+  #footer-container {
+    margin-top: 20%;
+  }
+  .about_wrapper {
+    top: 30vw;
+  }
 }
 @media only screen and (max-width: 300px) {
-    nav a {
-        font-size: 8px;
-    }
-    .logo {
-        position: relative;
-        padding: 18px 0;
-        width: 80px;
-        transition: all ease 0.2s;
-        margin-left: 15px;
-    }
+  nav a {
+    font-size: 8px;
+  }
+  .logo {
+    position: relative;
+    padding: 18px 0;
+    width: 80px;
+    transition: all ease 0.2s;
+    margin-left: 15px;
+  }
 }
