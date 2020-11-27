@@ -1,141 +1,192 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <title>Ducati Motorcyles</title>
-            <meta charset="utf-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="css/style.css"> 
-            <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-            <script src="js/main.js"></script>
-            <script>
-                window.jQuery || document.write('<script src="js/jquery-3.4.1.min.js"><\/script>'); // if jQuery is not loaded from CDN, replace script with local jQuery source
-            </script>
-        </head>
-        <body>
-            <header>
-                <a href="index.html">
-                    <img class="logo" src="images/logo.svg" alt="Ducati Logo">
-                </a>
-                <nav>
-                    <a href="index.html">HOME</a>
-                    <div id="dropdown">
-                        <a id="models-button">MODELS</a>
-                        <a class="dropdown-text" href="panigale.html">PANIGALE</a>
-                        <a class="dropdown-text" href="monster.html">MONSTER</a>
-                        <a class="dropdown-text" href="#top">XDIAVEL</a>
-                        <a class="dropdown-text" href="hypermotard.html">HYPERMOTARD</a>
-                    </div>
-                    <a href="about.html">OUR STORY</a>
-                </nav>
-            </header>
-            <section class="hero"> 
-                <div id="top"></div>
-                <div class="hero-img" id="xdiavel_hero-img"></div>
-                <div class="wrapper">
-                    <h1 class="hero-title">XDIAVEL</h1>
-                    <h3 class="hero-subtitle">Unmistakable Style</h3>
-                    <p class="description"> <!--"Ducati XDiavel: unique Sport-Cruiser bikes". 2019. Ducati Australia. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
-                        Ducati enters the Cruiser world and does so in its very own way, presenting a revolutionary bike, 
-                        with technological content and performance that is typical of its DNA. The Ducati XDiavel represents 
-                        the best of both worlds. The Ducati world: thrilling performance, sporty power, advanced electronics. 
-                        The cruiser world: long, low, forward positioned footpegs, powerful torque even at low speeds, no compromise 
-                        in terms of materals and finishes. The XDiavel is low speed excitement: relaxed low-speed riding,typical of 
-                        the cruiser, combined with the excitement and the adrenaline of sports riding that charaterise every Ducati. 
-                    </p>
-                    <img id="xdiavel" src="images/xdiavel_1.png" alt="XDiavel Motorcycle"> <!--Ducati. 2019. Ducati XDiavel Side Profile. Image. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
-                    <div id="carousel-2" class="dot-carousel">
-                        <img class="ellipse" id="xdiavel_circle1" src="images/ellipse-gold.svg" alt="Image Carousel Dot">
-                        <img class="ellipse" id="xdiavel_circle2" src="images/ellipse-white.svg" alt="Image Carousel Dot">
-                    </div>
-                    <div class="audio" id="xdiavel-audio">
-                        <img src="images/audio.svg" alt="Audio Button">
-                    </div>
-                    <a id="find-a-dealer_button" href="#bottom">
-                        <button>
-                            Find a Dealer
-                            <img src="images/right-arrow-gold.svg" alt="right arrow">
-                        </button>
-                    </a>
-                </div>
-                <div class="line" id="line2"></div>
-            </section>
-            <section class="rpm-section">
-                <div class="wrapper-4">
-                    <div id="engine-container">
-                        <h1 id="ergonomics-title">5000 rpm</h1>
-                        <h3 id="ergonomics-subtitle">A true cruiser</h3>
-                        <p id="ergonomics-description"> <!--"Ducati XDiavel: unique Sport-Cruiser bikes". 2019. Ducati Australia. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
-                            5,000. The number of revolutions per minute at which the new Ducati Testastretta DVT 
-                            1262 reaches maximum torque, equal to 12.8 kgm. This level of rpms is decidedly low for 
-                            a Ducati twin cylinder, but it's perfect for the relaxed ride of a true cruiser. Moreover, 
-                            at just 2,100 rpm the XDiavel engine guarantees a torque of more than 10 kgm and an extremely 
-                            flat curve up to the limiter. 
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="specs-section">
-                <div class="line" id="line3"></div>
-                <img id="specs_xdiavel" src="images/specs_xdiavel.png" alt="XDiavel Motorcycle Photo"> <!--Ducati. 2019. Ducati XDiavel Front Angle. Image. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
-                <div class="wrapper-3">
-                    <h1 id="monster_specs-title">SPECIFICATIONS</h1> <!--"Ducati XDiavel: unique Sport-Cruiser bikes". 2019. Ducati Australia. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
-                    <div id="xdiavel_specs-text">
-                        <strong>DISPLACEMENT</strong>
-                        <p>1262 cc</p>
-                        <strong>POWER</strong>
-                        <p>152 hp (112 kW) @ 9500 rpm i</p>
-                        <strong>TORQUE</strong>
-                        <p>93 lb-ft (126 Nm) @ 5,000 rpm i</p>
-                        <strong>DRY WEIGHT</strong>
-                        <p>220 kg (485 lb)</p>
-                        <strong>SEAT HEIGHT</strong>
-                        <p>755 mm (29,72in)</p>
-                        <strong>SAFETY EQUIPMENT</strong>
-                        <p>
-                            Bosch cornering ABS, Ducati Traction control (DTC), Riding Modes
-                        </p>
-                        <strong>MAINTEINANCE SERVICE INTERVALS</strong>
-                        <p>9,000m/12 Months</p>
-                    </div>
-                </div>
-            </section>
-            <section class="gallery-section">
-                <div class="line" id="line4"></div>
-                <div id="xdiavel_centre-gallery"></div>
-                <div id="carousel-3" class="dot-carousel">
-                    <img class="ellipse" id="xdiavel-gallery_circle1" src="images/ellipse-gold.svg" alt="Image Carousel Dot">
-                    <img class="ellipse" id="xdiavel-gallery_circle2" src="images/ellipse-white.svg" alt="Image Carousel Dot">
-                    <img class="ellipse" id="xdiavel-gallery_circle3" src="images/ellipse-white.svg" alt="Image Carousel Dot">
-                    <img class="ellipse" id="xdiavel-gallery_circle4" src="images/ellipse-white.svg" alt="Image Carousel Dot">
-                </div>
-            </section>
-            <section class="find-dealer2"> 
-                <h1 id="footer-heading2">FIND A DEALER</h1>
-                <div id="contact-button_main">
-                    <a href="mailto:info@ducati.com.au?Subject=XDiavel%20Inquiry" target="_top">
-                        <button>
-                            Contact
-                            <img src="images/right-arrow-gold.svg" alt="right arrow">
-                        </button>
-                    </a>
-                </div>
-                <div class="line" id="line-bottom"></div>
-                <div id="container-main" class="container">
-                    <h3>Site Information</h3>
-                    <p>
-                        This website has been created as part of an assignment in an approved course of
-                        study for Curtin University and contains copyright material not created by the author.
-                        All copyright material used remains copyright of the respective owners and has been
-                        used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of
-                        Australia). No part of this work may be reproduced without consent of the original
-                        copyright owners. 
-                    </p>
-                </div>
-                <div id="bottom"></div>
-            </section>
-            <footer>
-        
-            </footer>
-        </body>
-    </html>
+<html lang="en">
+  <head>
+    <title>Ducati Motorcyles</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery-3.4.1.min.js"><\/script>'); // if jQuery is not loaded from CDN, replace script with local jQuery source
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="images/logo.svg" alt="Ducati Logo" />
+      </a>
+      <nav>
+        <a href="index.html">HOME</a>
+        <div id="dropdown">
+          <a id="models-button">MODELS</a>
+          <a class="dropdown-text" href="panigale.html">PANIGALE</a>
+          <a class="dropdown-text" href="monster.html">MONSTER</a>
+          <a class="dropdown-text" href="#top">XDIAVEL</a>
+          <a class="dropdown-text" href="hypermotard.html">HYPERMOTARD</a>
+        </div>
+        <a href="about.html">OUR STORY</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <div id="top"></div>
+      <div class="hero-img" id="xdiavel_hero-img"></div>
+      <div class="wrapper">
+        <h1 class="hero-title">XDIAVEL</h1>
+        <h3 class="hero-subtitle">Unmistakable Style</h3>
+        <p class="description">
+          <!--"Ducati XDiavel: unique Sport-Cruiser bikes". 2019. Ducati Australia. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
+          Ducati enters the Cruiser world and does so in its very own way,
+          presenting a revolutionary bike, with technological content and
+          performance that is typical of its DNA. The Ducati XDiavel represents
+          the best of both worlds. The Ducati world: thrilling performance,
+          sporty power, advanced electronics. The cruiser world: long, low,
+          forward positioned footpegs, powerful torque even at low speeds, no
+          compromise in terms of materals and finishes. The XDiavel is low speed
+          excitement: relaxed low-speed riding,typical of the cruiser, combined
+          with the excitement and the adrenaline of sports riding that
+          charaterise every Ducati.
+        </p>
+        <img id="xdiavel" src="images/xdiavel_1.png" alt="XDiavel Motorcycle" />
+        <!--Ducati. 2019. Ducati XDiavel Side Profile. Image. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
+        <div id="carousel-2" class="dot-carousel">
+          <img
+            class="ellipse"
+            id="xdiavel_circle1"
+            src="images/ellipse-gold.svg"
+            alt="Image Carousel Dot"
+          />
+          <img
+            class="ellipse"
+            id="xdiavel_circle2"
+            src="images/ellipse-white.svg"
+            alt="Image Carousel Dot"
+          />
+        </div>
+        <div class="audio" id="xdiavel-audio">
+          <img src="images/audio.svg" alt="Audio Button" />
+        </div>
+        <a id="find-a-dealer_button" href="#bottom">
+          <button>
+            Find a Dealer
+            <img src="images/right-arrow-gold.svg" alt="right arrow" />
+          </button>
+        </a>
+      </div>
+      <div class="line" id="line2"></div>
+    </section>
+    <section class="rpm-section">
+      <div class="wrapper-4">
+        <div id="engine-container">
+          <h1 id="ergonomics-title">5000 rpm</h1>
+          <h3 id="ergonomics-subtitle">A true cruiser</h3>
+          <p id="ergonomics-description">
+            <!--"Ducati XDiavel: unique Sport-Cruiser bikes". 2019. Ducati Australia. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
+            5,000. The number of revolutions per minute at which the new Ducati
+            Testastretta DVT 1262 reaches maximum torque, equal to 12.8 kgm.
+            This level of rpms is decidedly low for a Ducati twin cylinder, but
+            it's perfect for the relaxed ride of a true cruiser. Moreover, at
+            just 2,100 rpm the XDiavel engine guarantees a torque of more than
+            10 kgm and an extremely flat curve up to the limiter.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="specs-section">
+      <div class="line" id="line3"></div>
+      <img
+        id="specs_xdiavel"
+        src="images/specs_xdiavel.png"
+        alt="XDiavel Motorcycle Photo"
+      />
+      <!--Ducati. 2019. Ducati XDiavel Front Angle. Image. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
+      <div class="wrapper-3">
+        <h1 id="monster_specs-title">SPECIFICATIONS</h1>
+        <!--"Ducati XDiavel: unique Sport-Cruiser bikes". 2019. Ducati Australia. https://www.ducati.com/au/en/bikes/xdiavel/xdiavel.-->
+        <div id="xdiavel_specs-text">
+          <strong>DISPLACEMENT</strong>
+          <p>1262 cc</p>
+          <strong>POWER</strong>
+          <p>152 hp (112 kW) @ 9500 rpm i</p>
+          <strong>TORQUE</strong>
+          <p>93 lb-ft (126 Nm) @ 5,000 rpm i</p>
+          <strong>DRY WEIGHT</strong>
+          <p>220 kg (485 lb)</p>
+          <strong>SEAT HEIGHT</strong>
+          <p>755 mm (29,72in)</p>
+          <strong>SAFETY EQUIPMENT</strong>
+          <p>
+            Bosch cornering ABS, Ducati Traction control (DTC), Riding Modes
+          </p>
+          <strong>MAINTEINANCE SERVICE INTERVALS</strong>
+          <p>9,000m/12 Months</p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery-section">
+      <div class="line" id="line4"></div>
+      <div id="xdiavel_centre-gallery"></div>
+      <div id="carousel-3" class="dot-carousel">
+        <img
+          class="ellipse"
+          id="xdiavel-gallery_circle1"
+          src="images/ellipse-gold.svg"
+          alt="Image Carousel Dot"
+        />
+        <img
+          class="ellipse"
+          id="xdiavel-gallery_circle2"
+          src="images/ellipse-white.svg"
+          alt="Image Carousel Dot"
+        />
+        <img
+          class="ellipse"
+          id="xdiavel-gallery_circle3"
+          src="images/ellipse-white.svg"
+          alt="Image Carousel Dot"
+        />
+        <img
+          class="ellipse"
+          id="xdiavel-gallery_circle4"
+          src="images/ellipse-white.svg"
+          alt="Image Carousel Dot"
+        />
+      </div>
+    </section>
+    <section class="find-dealer2">
+      <h1 id="footer-heading2">FIND A DEALER</h1>
+      <div id="contact-button_main">
+        <a
+          href="mailto:info@ducati.com.au?Subject=XDiavel%20Inquiry"
+          target="_top"
+        >
+          <button>
+            Contact
+            <img src="images/right-arrow-gold.svg" alt="right arrow" />
+          </button>
+        </a>
+      </div>
+      <div class="line" id="line-bottom"></div>
+      <div id="container-main" class="container">
+        <h3>Site Information</h3>
+        <p>
+          This website has been created as part of an assignment in an approved
+          course of study for Curtin University and contains copyright material
+          not created by the author. All copyright material used remains
+          copyright of the respective owners and has been used here pursuant to
+          Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No
+          part of this work may be reproduced without consent of the original
+          copyright owners.
+        </p>
+      </div>
+      <div id="bottom"></div>
+    </section>
+    <footer></footer>
+  </body>
+</html>

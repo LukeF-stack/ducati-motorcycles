@@ -1,139 +1,188 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <title>Ducati Motorcyles</title>
-            <meta charset="utf-8"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="css/style.css"> 
-            <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-            <script src="js/main.js"></script>
-            <script>
-                window.jQuery || document.write('<script src="js/jquery-3.4.1.min.js"><\/script>'); // if jQuery is not loaded from CDN, replace script with local jQuery source
-            </script>
-        </head>
-        <body>
-            <header>
-                <a href="index.html">
-                    <img class="logo" src="images/logo.svg" alt="Ducati Logo">
-                </a>
-                <nav>
-                    <a href="index.html">HOME</a>
-                    <div id="dropdown">
-                        <a id="models-button">MODELS</a>
-                        <a class="dropdown-text" href="panigale.html">PANIGALE</a>
-                        <a class="dropdown-text" href="#top">MONSTER</a>
-                        <a class="dropdown-text" href="xdiavel.html">XDIAVEL</a>
-                        <a class="dropdown-text" href="hypermotard.html">HYPERMOTARD</a>
-                    </div>
-                    <a href="about.html">OUR STORY</a>
-                </nav>
-            </header>
-            <section class="hero"> 
-                <div id="top"></div>
-                <div class="hero-img" id="monster_hero-img"></div>
-                <div class="wrapper">
-                    <h1 class="hero-title">MONSTER 797</h1>
-                    <h3 class="hero-subtitle">Fresh vibes. Sporty soul.</h3>
-                    <p class="description"> <!--"Ducati Monster 797 | The Legendary Italian Naked with new graphics". 2019. Ducati Australia. https://www.ducati.com/ww/en/bikes/monster/monster-797.-->
-                        The Monster 797 is the ideal bike for those who want to enter the world of Ducati for the first time. 
-                        As sporty and essential as any Monster, it offers everything you need for a fun ride that is also easy 
-                        and intuitive. In addition, the new graphics give the Monster 797 unique personality and style.<br>The new 
-                        Monster 797 design perfectly integrates wide handlebar, tank, trellis frame, engine and double-sided 
-                        swinging arm - an agile and dynamic line that communicates sportiness and generates confidence from 
-                        first glance. 
-                    </p>
-                    <img id="monster" src="images/monster_1.png" alt="Monster Motorcycle"> <!--Ducati. 2019. Ducati Monster 797 Side Profile Silver. Image. https://www.ducati.com/au/en/bikes/monster/monster-797.-->
-                    <div id="carousel-2" class="dot-carousel">
-                        <img class="ellipse" id="monster_circle1" src="images/ellipse-gold.svg" alt="Image Carousel Dot">
-                        <img class="ellipse" id="monster_circle2" src="images/ellipse-white.svg" alt="Image Carousel Dot">
-                    </div>
-                    <div class="audio" id="monster-audio">
-                        <img src="images/audio.svg" alt="Audio Button">
-                    </div>
-                    <a id="find-a-dealer_button" href="#bottom">
-                        <button>
-                            Find a Dealer
-                            <img src="images/right-arrow-gold.svg" alt="right arrow">
-                        </button>
-                    </a>
-                </div>
-                <div class="line" id="line2"></div>
-            </section>
-            <section class="ergonomics-section">
-                <div class="wrapper-4">
-                    <div id="engine-container">
-                        <h1 id="ergonomics-title">ERGONOMICS</h1>
-                        <h3 id="ergonomics-subtitle">Versatile on any terrain</h3>
-                        <p id="ergonomics-description"> <!--"Ducati Monster 797 | The Legendary Italian Naked with new graphics". 2019. Ducati Australia. https://www.ducati.com/ww/en/bikes/monster/monster-797.-->
-                            The new Monster 797 chassis is designed to ensure maximum ease of riding. 
-                            Compact dimensions, a low and narrow seat, a wide handlebar and reduced weight 
-                            make it agile in city traffic and sporty on out-of-town roads.
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="specs-section">
-                <div class="line" id="line3"></div>
-                <img id="specs_monster" src="images/specs_monster.png" alt="Monster Motorcycle Photo"> <!--Ducati. 2019. Ducati Monster 797 Side Angle. Image. https://www.ducati.com/au/en/bikes/monster/monster-797.-->
-                <div class="wrapper-3">
-                    <h1 id="monster_specs-title">SPECIFICATIONS</h1> <!--"Ducati Monster 797 | The Legendary Italian Naked with new graphics". 2019. Ducati Australia. https://www.ducati.com/ww/en/bikes/monster/monster-797.-->
-                    <div id="monster_specs-text">
-                        <strong>DISPLACEMENT</strong>
-                        <p>803 cc</p>
-                        <strong>POWER</strong>
-                        <p>54 kW (73 hp) @ 8,250 rpm i</p>
-                        <strong>TORQUE</strong>
-                        <p>67 Nm (49 lb-ft) @ 5,750 rpm i</p>
-                        <strong>DRY WEIGHT</strong>
-                        <p>175 kg (386 lb)</p>
-                        <strong>SEAT HEIGHT</strong>
-                        <p>805 mm (31.69in)</p>
-                        <strong>SAFETY EQUIPMENT</strong>
-                        <p>
-                            Bosch ABS
-                        </p>
-                        <strong>VALVE CLEAN ADJUSTMENT (DESMOSERVICE)</strong>
-                        <p>12,000 km (7,500 mi)</p>
-                    </div>
-                </div>
-            </section>
-            <section class="gallery-section">
-                <div class="line" id="line4"></div>
-                <div id="monster_centre-gallery"></div>
-                <div id="carousel-3" class="dot-carousel">
-                    <img class="ellipse" id="monster-gallery_circle1" src="images/ellipse-gold.svg" alt="Image Carousel Dot">
-                    <img class="ellipse" id="monster-gallery_circle2" src="images/ellipse-white.svg" alt="Image Carousel Dot">
-                    <img class="ellipse" id="monster-gallery_circle3" src="images/ellipse-white.svg" alt="Image Carousel Dot">
-                    <img class="ellipse" id="monster-gallery_circle4" src="images/ellipse-white.svg" alt="Image Carousel Dot">
-                </div>
-            </section>
-            <section class="find-dealer2"> 
-                <h1 id="footer-heading2">FIND A DEALER</h1>
-                <div id="contact-button_main">
-                    <a href="mailto:info@ducati.com.au?Subject=Monster%20Inquiry" target="_top">
-                        <button>
-                            Contact
-                            <img src="images/right-arrow-gold.svg" alt="right arrow">
-                        </button>
-                    </a>
-                </div>
-                <div class="line" id="line-bottom"></div>
-                <div id="container-main" class="container">
-                    <h3>Site Information</h3>
-                    <p>
-                        This website has been created as part of an assignment in an approved course of
-                        study for Curtin University and contains copyright material not created by the author.
-                        All copyright material used remains copyright of the respective owners and has been
-                        used here pursuant to Section 40 of the Copyright Act 1968 (Commonwealth of
-                        Australia). No part of this work may be reproduced without consent of the original
-                        copyright owners. 
-                    </p>
-                </div>
-                <div id="bottom"></div>
-            </section>
-            <footer>
-        
-            </footer>
-        </body>
-    </html>
+<html lang="en">
+  <head>
+    <title>Ducati Motorcyles</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      window.jQuery ||
+        document.write('<script src="js/jquery-3.4.1.min.js"><\/script>'); // if jQuery is not loaded from CDN, replace script with local jQuery source
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img class="logo" src="images/logo.svg" alt="Ducati Logo" />
+      </a>
+      <nav>
+        <a href="index.html">HOME</a>
+        <div id="dropdown">
+          <a id="models-button">MODELS</a>
+          <a class="dropdown-text" href="panigale.html">PANIGALE</a>
+          <a class="dropdown-text" href="#top">MONSTER</a>
+          <a class="dropdown-text" href="xdiavel.html">XDIAVEL</a>
+          <a class="dropdown-text" href="hypermotard.html">HYPERMOTARD</a>
+        </div>
+        <a href="about.html">OUR STORY</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <div id="top"></div>
+      <div class="hero-img" id="monster_hero-img"></div>
+      <div class="wrapper">
+        <h1 class="hero-title">MONSTER 797</h1>
+        <h3 class="hero-subtitle">Fresh vibes. Sporty soul.</h3>
+        <p class="description">
+          <!--"Ducati Monster 797 | The Legendary Italian Naked with new graphics". 2019. Ducati Australia. https://www.ducati.com/ww/en/bikes/monster/monster-797.-->
+          The Monster 797 is the ideal bike for those who want to enter the
+          world of Ducati for the first time. As sporty and essential as any
+          Monster, it offers everything you need for a fun ride that is also
+          easy and intuitive. In addition, the new graphics give the Monster 797
+          unique personality and style.<br />The new Monster 797 design
+          perfectly integrates wide handlebar, tank, trellis frame, engine and
+          double-sided swinging arm - an agile and dynamic line that
+          communicates sportiness and generates confidence from first glance.
+        </p>
+        <img id="monster" src="images/monster_1.png" alt="Monster Motorcycle" />
+        <!--Ducati. 2019. Ducati Monster 797 Side Profile Silver. Image. https://www.ducati.com/au/en/bikes/monster/monster-797.-->
+        <div id="carousel-2" class="dot-carousel">
+          <img
+            class="ellipse"
+            id="monster_circle1"
+            src="images/ellipse-gold.svg"
+            alt="Image Carousel Dot"
+          />
+          <img
+            class="ellipse"
+            id="monster_circle2"
+            src="images/ellipse-white.svg"
+            alt="Image Carousel Dot"
+          />
+        </div>
+        <div class="audio" id="monster-audio">
+          <img src="images/audio.svg" alt="Audio Button" />
+        </div>
+        <a id="find-a-dealer_button" href="#bottom">
+          <button>
+            Find a Dealer
+            <img src="images/right-arrow-gold.svg" alt="right arrow" />
+          </button>
+        </a>
+      </div>
+      <div class="line" id="line2"></div>
+    </section>
+    <section class="ergonomics-section">
+      <div class="wrapper-4">
+        <div id="engine-container">
+          <h1 id="ergonomics-title">ERGONOMICS</h1>
+          <h3 id="ergonomics-subtitle">Versatile on any terrain</h3>
+          <p id="ergonomics-description">
+            <!--"Ducati Monster 797 | The Legendary Italian Naked with new graphics". 2019. Ducati Australia. https://www.ducati.com/ww/en/bikes/monster/monster-797.-->
+            The new Monster 797 chassis is designed to ensure maximum ease of
+            riding. Compact dimensions, a low and narrow seat, a wide handlebar
+            and reduced weight make it agile in city traffic and sporty on
+            out-of-town roads.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="specs-section">
+      <div class="line" id="line3"></div>
+      <img
+        id="specs_monster"
+        src="images/specs_monster.png"
+        alt="Monster Motorcycle Photo"
+      />
+      <!--Ducati. 2019. Ducati Monster 797 Side Angle. Image. https://www.ducati.com/au/en/bikes/monster/monster-797.-->
+      <div class="wrapper-3">
+        <h1 id="monster_specs-title">SPECIFICATIONS</h1>
+        <!--"Ducati Monster 797 | The Legendary Italian Naked with new graphics". 2019. Ducati Australia. https://www.ducati.com/ww/en/bikes/monster/monster-797.-->
+        <div id="monster_specs-text">
+          <strong>DISPLACEMENT</strong>
+          <p>803 cc</p>
+          <strong>POWER</strong>
+          <p>54 kW (73 hp) @ 8,250 rpm i</p>
+          <strong>TORQUE</strong>
+          <p>67 Nm (49 lb-ft) @ 5,750 rpm i</p>
+          <strong>DRY WEIGHT</strong>
+          <p>175 kg (386 lb)</p>
+          <strong>SEAT HEIGHT</strong>
+          <p>805 mm (31.69in)</p>
+          <strong>SAFETY EQUIPMENT</strong>
+          <p>
+            Bosch ABS
+          </p>
+          <strong>VALVE CLEAN ADJUSTMENT (DESMOSERVICE)</strong>
+          <p>12,000 km (7,500 mi)</p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery-section">
+      <div class="line" id="line4"></div>
+      <div id="monster_centre-gallery"></div>
+      <div id="carousel-3" class="dot-carousel">
+        <img
+          class="ellipse"
+          id="monster-gallery_circle1"
+          src="images/ellipse-gold.svg"
+          alt="Image Carousel Dot"
+        />
+        <img
+          class="ellipse"
+          id="monster-gallery_circle2"
+          src="images/ellipse-white.svg"
+          alt="Image Carousel Dot"
+        />
+        <img
+          class="ellipse"
+          id="monster-gallery_circle3"
+          src="images/ellipse-white.svg"
+          alt="Image Carousel Dot"
+        />
+        <img
+          class="ellipse"
+          id="monster-gallery_circle4"
+          src="images/ellipse-white.svg"
+          alt="Image Carousel Dot"
+        />
+      </div>
+    </section>
+    <section class="find-dealer2">
+      <h1 id="footer-heading2">FIND A DEALER</h1>
+      <div id="contact-button_main">
+        <a
+          href="mailto:info@ducati.com.au?Subject=Monster%20Inquiry"
+          target="_top"
+        >
+          <button>
+            Contact
+            <img src="images/right-arrow-gold.svg" alt="right arrow" />
+          </button>
+        </a>
+      </div>
+      <div class="line" id="line-bottom"></div>
+      <div id="container-main" class="container">
+        <h3>Site Information</h3>
+        <p>
+          This website has been created as part of an assignment in an approved
+          course of study for Curtin University and contains copyright material
+          not created by the author. All copyright material used remains
+          copyright of the respective owners and has been used here pursuant to
+          Section 40 of the Copyright Act 1968 (Commonwealth of Australia). No
+          part of this work may be reproduced without consent of the original
+          copyright owners.
+        </p>
+      </div>
+      <div id="bottom"></div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
